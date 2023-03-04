@@ -4,10 +4,11 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
+<link rel="stylesheet" href="form.css">
 <title>Person List</title>
 </head>
 <body>
-	<form method="post" action="navigationServlet">
+	<form class="background" method="post" action="navigationServlet">
 	<table>
 	<c:forEach items="${requestScope.allPeople }" var="currentperson">
 	<tr>

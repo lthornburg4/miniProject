@@ -4,10 +4,11 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
+<link rel="stylesheet" href="form.css">
 <title>Edit List</title>
 </head>
 <body>
-	<form action="editListDetailsServlet" method="post">
+	<form class="background" action="editListDetailsServlet" method="post">
 	<input type="hidden" name="id" value="${listToEdit.id }">
 	List Name: <input type="text" name="listName" value="${listToEdit.listName }"><br />
 	

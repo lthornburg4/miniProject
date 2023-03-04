@@ -4,10 +4,11 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
+<link rel="stylesheet" href="form.css">
 <title>Create New List</title>
 </head>
 <body>
-	<form action="createNewListServlet" method="post">
+	<form class="background" action="createNewListServlet" method="post">
 	List Name: <input type="text" name="listName"><br />
 	Date Created: <input type="text" name="month" placeholder="mm" size="4">
 	<input type="text" name="day" placeholder="dd" size="4">, 

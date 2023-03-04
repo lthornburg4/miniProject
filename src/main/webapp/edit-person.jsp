@@ -4,10 +4,11 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
+<link rel="stylesheet" href="form.css">
 <title>Edit Person</title>
 </head>
 <body>
-	<form action="editPersonServlet" method="post">
+	<form class="background" action="editPersonServlet" method="post">
 	First name: <input type="text" name="fname" value="${toEdit.fname }">
 	Last name: <input type="text" name="lname" value="${toEdit.lname }">
 	<input type="hidden" name="id" value="${toEdit.id }">

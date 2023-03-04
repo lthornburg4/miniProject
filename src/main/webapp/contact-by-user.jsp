@@ -4,10 +4,11 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
+<link rel="stylesheet" href="form.css">
 <title>Contacts</title>
 </head>
 <body>
-	<form method="post" action="listNavigationServlet">
+	<form class="background" method="post" action="listNavigationServlet">
 	<p> </p>
 	<table>
 	
