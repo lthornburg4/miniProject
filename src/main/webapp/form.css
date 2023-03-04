@@ -1,0 +1,12 @@
+@charset "ISO-8859-1";
+
+a:visited {
+  color: green;
+}
+.background{
+	background-color: cadetblue;
+}
+
+title{
+    font-weight: bold;
+}
