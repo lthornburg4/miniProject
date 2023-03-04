@@ -16,13 +16,13 @@
 	<input type="text" name="day" placeholder="dd" size="4" value="${day }">, 
 	<input type="text" name="year" placeholder="yyyy" size="4" value="${year }">
 	
-	Contact: <input type="text" name="contact" value="${listToEdit.contact.contact }"><br />
+	Address: <input type="text" name="contact" value="${listToEdit.contact }"><br />
 	
 	Available People: <br />
 	
 	<select name="allPeopleToAdd" multiple size="6">
 	<c:forEach items="${requestScope.allPeople }" var="currentperson">
-	<option value="${currentperson.id }">${currentperson.fname }, by ${currentperson.lname }</option>
+	<option value="${currentperson.id }">${currentperson.fname } ${currentperson.lname }</option>
 	</c:forEach>
 	</select>
 	<br />
