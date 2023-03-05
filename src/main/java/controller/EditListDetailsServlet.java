@@ -57,10 +57,10 @@ public class EditListDetailsServlet extends HttpServlet {
 		String day = request.getParameter("day");
 		String year = request.getParameter("year");
 		
-		String listName = request.getParameter("listName");
+		String contact = request.getParameter("contact");
 		
 		// Find new contact
-		Contact newlist = ph.findList(listName);
+		Contact newlist = ph.findList(contact);
 		
 		LocalDate ld;
 		try {
