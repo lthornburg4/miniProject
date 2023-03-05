@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="form.css">
 <title>Create New List</title>
 </head>
-<body>
+<body class="background">
 	<form class="background" action="createNewListServlet" method="post">
 	List Name: <input type="text" name="listName"><br />
 	Date Created: <input type="text" name="month" placeholder="mm" size="4">
@@ -16,10 +16,12 @@
 	Address: <input type="text" name="contact" size="50"><br />
 	
 	Available People: <br />
+	
 	<select name="allPeopleToAdd" multiple size="6">
 	<c:forEach items="${requestScope.allPeople }" var="currentperson">
-	<option value="${currentperson.id}">${currentperson.fname } ${currentperson.lname }</option>
-	</c:forEach></select>
+	<option value="${currentperson.id }">${currentperson.fname } ${currentperson.lname }</option>
+	</c:forEach>
+	</select>
 	<br />
 	<input type="submit" value="Create contact and Add people">
 	</form>

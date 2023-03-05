@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="form.css">
 <title>Contacts</title>
 </head>
-<body>
+<body class="background">
 	<form class="background" method="post" action="listNavigationServlet">
 	<p> </p>
 	<table>

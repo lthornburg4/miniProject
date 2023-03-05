@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="form.css">
 <title>Person List</title>
 </head>
-<body>
+<body class="background">
 	<form class="background" method="post" action="navigationServlet">
 	<table>
 	<c:forEach items="${requestScope.allPeople }" var="currentperson">

@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="form.css">
 <title>Edit Person</title>
 </head>
-<body>
+<body class="background">
 	<form class="background" action="editPersonServlet" method="post">
 	First name: <input type="text" name="fname" value="${toEdit.fname }">
 	Last name: <input type="text" name="lname" value="${toEdit.lname }">

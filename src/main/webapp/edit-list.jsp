@@ -7,10 +7,10 @@
 <link rel="stylesheet" href="form.css">
 <title>Edit List</title>
 </head>
-<body>
+<body class="background">
 	<form class="background" action="editListDetailsServlet" method="post">
 	<input type="hidden" name="id" value="${listToEdit.id }">
-	List Name: <input type="text" name="listName" value="${listToEdit.listName }"><br />
+	List Name: <input type="text" name="listName" value="${listToEdit.listName}"><br />
 	
 	Date Created: <input type="text" name="month" placeholder="mm" size="4" value="${month }">
 	<input type="text" name="day" placeholder="dd" size="4" value="${day }">, 
